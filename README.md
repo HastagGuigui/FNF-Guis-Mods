@@ -1,3 +1,4 @@
+### TO ANYONE GIVING A FUCK ABOUT THIS FORK: IT ISN'T FINISHED YET PLAESE BE PATIENT
 
 ![Kade Engine logo](assets/preload/images/KadeEngineLogo.png)
 

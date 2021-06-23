@@ -498,6 +498,21 @@ class Character extends FlxSprite
 				addOffset("singDOWN-alt", -30, -27);
 
 				playAnim('idle');
+			case 'gui':
+				frames = Paths.getSparrowAtlas('gui_assets/Gui');
+				animation.addByPrefix('idle', 'Gui idle', 24, false);
+				animation.addByPrefix('singUP', 'Gui singUp', 24, false);
+				animation.addByPrefix('singDOWN', 'Gui singDown', 24, false);
+				animation.addByPrefix('singLEFT', 'Gui singLeft', 24, false);
+				animation.addByPrefix('singRIGHT', 'Gui singRight', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
+
+				playAnim('idle');
 		}
 
 		dance();
