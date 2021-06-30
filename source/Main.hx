@@ -1,7 +1,5 @@
 package;
 
-
-import webm.WebmPlayer;
 import openfl.display.BlendMode;
 import openfl.text.TextFormat;
 import openfl.display.Application;
@@ -25,7 +23,7 @@ class Main extends Sprite
 	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
 	var startFullscreen:Bool = false; // Whether to start the game in fullscreen on desktop targets
 
-	public static var watermarks = true; // Whether to put Kade Engine liteartly anywhere
+	public static var watermarks = true; // Whether to put Kade Engine literally anywhere
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -77,10 +75,12 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
+		#if cpp
 		initialState = Caching;
-		
 		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
-
+		#else
+		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, framerate, framerate, skipSplash, startFullscreen);
+		#end
 		addChild(game);
 		
 		#if !mobile
