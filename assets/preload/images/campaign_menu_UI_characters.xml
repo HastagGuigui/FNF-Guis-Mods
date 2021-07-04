@@ -158,4 +158,20 @@
 	<SubTexture name="spooky dance idle BLACK LINES0013" x="2164" y="3066" width="357" height="484" frameX="-79" frameY="-61" frameWidth="492" frameHeight="549"/>
 	<SubTexture name="spooky dance idle BLACK LINES0014" x="2531" y="3066" width="354" height="494" frameX="-78" frameY="-52" frameWidth="492" frameHeight="549"/>
 	<SubTexture name="spooky dance idle BLACK LINES0015" x="2531" y="3066" width="354" height="494" frameX="-78" frameY="-52" frameWidth="492" frameHeight="549"/>
+	<SubTexture name="Gui idle UI0000" x="5805" y="2777" width="461" height="823" frameX="-3" frameY="0" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0001" x="4869" y="2777" width="467" height="819" frameX="0" frameY="-2" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0002" x="7212" y="2777" width="470" height="819" frameX="0" frameY="-3" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0003" x="4392" y="2777" width="477" height="821" frameX="0" frameY="-4" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0004" x="6266" y="2777" width="477" height="821" frameX="0" frameY="-3" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0005" x="6742" y="2777" width="469" height="816" frameX="-2" frameY="-8" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0006" x="5339" y="2777" width="465" height="819" frameX="-2" frameY="-3" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0007" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0008" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0009" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0010" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0011" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0012" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0013" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0014" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
+	<SubTexture name="Gui idle UI0015" x="5805" y="2777" width="461" height="823" frameX="-2" frameY="-1" frameWidth="477" frameHeight="825"/>
 </TextureAtlas>
