@@ -1,4 +1,5 @@
 ### TO ANYONE GIVING A FUCK ABOUT THIS FORK: IT ISN'T FINISHED YET PLAESE BE PATIENT
+### THIS IS A MODIFICATION OF THE KADE ENGINE PLEASE GO CHECK THE CREATOR OF THIS ENGINE
 
 ![Kade Engine logo](assets/preload/images/KadeEngineLogo.png)
 
@@ -67,3 +68,7 @@ This game was made with love to Newgrounds and its community. Extra love to Tom 
 - [GWebDev](https://github.com/GrowtopiaFli) - Video Code
 - [Rozebud](https://github.com/ThatRozebudDude) - Ideas (that I stole)
 - [Puyo](https://github.com/daniel11420) - Setting up appveyor and a lot of other help
+
+
+### Side note from #Guigui
+If you want to use my character(s) for animation and stuff, go on, but please credit me, and don't do anything NSFW.
