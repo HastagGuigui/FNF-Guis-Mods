@@ -512,6 +512,24 @@ class PlayState extends MusicBeatState
 		{
 			switch (stageCheck)
 			{
+				case 'airplane':
+					{
+						curStage = 'airplane';
+						defaultCamZoom = 0.50;
+						var bg = new FlxSprite(-750).loadGraphic(Paths.image('bg', 'week1'));
+						bg.scrollFactor.set(0.1, 0.1);
+						bg.scale.set(1.5, 1.5);
+						add(bg);
+
+						var nuages = new FlxSprite(-1250).loadGraphic(Paths.image('nuages', 'week1'));
+						nuages.scrollFactor.set(0.2, 0.2);
+						add(nuages);
+
+						var avion = new FlxSprite(-1350, -125).loadGraphic(Paths.image('airplane_mode', 'week1'));
+						avion.scrollFactor.set(1,1);
+						avion.scale.set(1, 1);
+						add(avion);
+					}
 				case 'halloween':
 					{
 						curStage = 'spooky';

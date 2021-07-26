@@ -98,6 +98,10 @@
 	<SubTexture name="@0001" x="478" y="136" width="51" height="56" frameX="0" frameY="0" frameWidth="52" frameHeight="56"/>
 	<SubTexture name="@0002" x="426" y="134" width="52" height="56"/>
 	<SubTexture name="@0003" x="426" y="134" width="52" height="56"/>
+	<SubTexture name="# bold0000" x="1" y="517" width="55" height="67" pivotX="0.1" pivotY="0.05"/>
+	<SubTexture name="# bold0001" x="1" y="517" width="55" height="67"/>
+	<SubTexture name="# bold0002" x="1" y="517" width="55" height="67"/>
+	<SubTexture name="# bold0003" x="1" y="517" width="55" height="67"/>
 	<SubTexture name="A bold0000" x="717" y="0" width="54" height="67" pivotX="0.1" pivotY="0.05"/>
 	<SubTexture name="A bold0001" x="717" y="0" width="54" height="67"/>
 	<SubTexture name="A bold0002" x="771" y="0" width="54" height="67"/>
