@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Gui_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Gui idle0000" x="922" y="0" width="461" height="823" pivotX="230.75" pivotY="413.25" frameX="0" frameY="-2" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0001" x="921" y="828" width="460" height="826" frameX="-1" frameY="-4" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0002" x="461" y="0" width="461" height="828" frameX="-1" frameY="-5" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0003" x="0" y="0" width="461" height="833" frameX="-1" frameY="-4" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0004" x="461" y="828" width="460" height="829" frameX="-1" frameY="-5" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0005" x="0" y="833" width="460" height="827" frameX="0" frameY="-2" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0006" x="922" y="0" width="461" height="823" frameX="-2" frameY="0" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui idle0007" x="922" y="0" width="461" height="823" frameX="-2" frameY="0" frameWidth="462" frameHeight="837"/>
+	<SubTexture name="Gui singDown old0000" x="1290" y="2361" width="293" height="635" pivotX="146.85" pivotY="318.3" frameX="0" frameY="-1" frameWidth="299" frameHeight="636"/>
+	<SubTexture name="Gui singDown old0001" x="1826" y="770" width="295" height="634" frameX="0" frameY="-1" frameWidth="299" frameHeight="636"/>
+	<SubTexture name="Gui singDown old0002" x="1823" y="2304" width="295" height="633" frameX="-1" frameY="0" frameWidth="299" frameHeight="636"/>
+	<SubTexture name="Gui singDown old0003" x="2231" y="697" width="297" height="630" frameX="-2" frameY="0" frameWidth="299" frameHeight="636"/>
+	<SubTexture name="Gui singLeft0000" x="1381" y="823" width="445" height="769" pivotX="222.65" pivotY="384" frameX="0" frameY="0" frameWidth="445" frameHeight="772"/>
+	<SubTexture name="Gui singLeft0001" x="1383" y="0" width="444" height="770" frameX="0" frameY="-1" frameWidth="445" frameHeight="772"/>
+	<SubTexture name="Gui singLeft0002" x="1381" y="1592" width="442" height="769" frameX="0" frameY="-3" frameWidth="445" frameHeight="772"/>
+	<SubTexture name="Gui singLeft0003" x="0" y="1660" width="439" height="767" frameX="0" frameY="-4" frameWidth="445" frameHeight="772"/>
+	<SubTexture name="Gui singRight old0000" x="921" y="1654" width="435" height="677" pivotX="226.9" pivotY="338.3" frameX="-9" frameY="0" frameWidth="444" frameHeight="680"/>
+	<SubTexture name="Gui singRight old0001" x="854" y="2335" width="436" height="677" frameX="-6" frameY="-1" frameWidth="444" frameHeight="680"/>
+	<SubTexture name="Gui singRight old0002" x="0" y="2427" width="438" height="676" frameX="-4" frameY="-3" frameWidth="444" frameHeight="680"/>
+	<SubTexture name="Gui singRight old0003" x="439" y="1660" width="442" height="675" frameX="0" frameY="-5" frameWidth="444" frameHeight="680"/>
+	<SubTexture name="Gui singUp0000" x="439" y="2335" width="415" height="717" pivotX="207.05" pivotY="358.05"/>
+	<SubTexture name="Gui singUp0001" x="1823" y="1592" width="409" height="712" frameX="-3" frameY="-4" frameWidth="415" frameHeight="717"/>
+	<SubTexture name="Gui singUp0002" x="1827" y="0" width="404" height="704" frameX="-5" frameY="-9" frameWidth="415" frameHeight="717"/>
+	<SubTexture name="Gui singUp0003" x="2231" y="0" width="399" height="697" frameX="-7" frameY="-13" frameWidth="415" frameHeight="717"/>
+</TextureAtlas>
