@@ -85,10 +85,10 @@ class FreeplayState extends MusicBeatState
 			}
 
 			var diffs = [];
-
-
 			var diffsThatExist = [];
 
+
+			#if sys
 			if (FileSystem.exists('assets/data/${format}/${format}-hard.json'))
 				diffsThatExist.push("Hard");
 			if (FileSystem.exists('assets/data/${format}/${format}-easy.json'))
@@ -101,6 +101,9 @@ class FreeplayState extends MusicBeatState
 				Application.current.window.alert("No difficulties found for chart, skipping.",meta.songName + " Chart");
 				continue;
 			}
+			#else
+			diffsThatExist = ["Easy","Normal","Hard"];
+			#end
 			if (diffsThatExist.contains("Easy"))
 				FreeplayState.loadDiff(0,format,meta.songName,diffs);
 			if (diffsThatExist.contains("Normal"))
@@ -176,10 +179,7 @@ class FreeplayState extends MusicBeatState
 		// LOAD CHARACTERS
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
-		if(FlxG.save.data.antialiasing)
-			{
-				bg.antialiasing = true;
-			}
+		bg.antialiasing = FlxG.save.data.antialiasing;
 		add(bg);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
@@ -476,6 +476,7 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		diffCalcText.text = 'RATING: ${DiffCalc.CalculateDiff(songData.get(songs[curSelected].songName)[curDifficulty])}';
+		diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
 		
 		#if PRELOAD_ALL
 		if (songs[curSelected].songCharacter == "sm")
