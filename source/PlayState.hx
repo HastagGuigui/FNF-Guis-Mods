@@ -1779,7 +1779,7 @@ class PlayState extends MusicBeatState
 		// Song check real quick
 		switch (curSong)
 		{
-			case 'Bopeebo' | 'Philly Nice' | 'Blammed' | 'Cocoa' | 'Eggnog':
+			case 'Bopeebo' | 'Philly Nice' | 'Blammed' | 'Cocoa' | 'Eggnog' | 'Hey':
 				allowedToHeadbang = true;
 			default:
 				allowedToHeadbang = false;

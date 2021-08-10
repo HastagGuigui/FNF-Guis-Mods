@@ -204,17 +204,20 @@ class FreeplayState extends MusicBeatState
 			// songText.screenCenter(X);
 		}
 
-		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
-		// scoreText.autoSize = false;
-		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
-		// scoreText.alignment = RIGHT;
+		scoreText = new FlxText(FlxG.width * 0.33, 5, 0, "", 32);
+		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, FlxTextAlign.CENTER);
 
-		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - 6, 0).makeGraphic(Std.int(FlxG.width * 0.35), 105, 0xFF000000);
+		var scoreBG:FlxSprite = new FlxSprite(scoreText.x - (FlxG.width*.015), 0).makeGraphic(Std.int(FlxG.width * 0.35), 105, 0xFF000000);
 		scoreBG.alpha = 0.6;
 		add(scoreBG);
 
+		var scoreHeader:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, 80, 0xFF000000);
+		scoreHeader.alpha = 0.2;
+		add(scoreHeader);
+
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
+		diffText.alignment = FlxTextAlign.CENTER;
 		add(diffText);
 
 		diffCalcText = new FlxText(scoreText.x, scoreText.y + 66, 0, "", 24);
@@ -243,23 +246,6 @@ class FreeplayState extends MusicBeatState
 		// add(selector);
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
-
-		// JUST DOIN THIS SHIT FOR TESTING!!!
-		/* 
-			var md:String = Markdown.markdownToHtml(Assets.getText('CHANGELOG.md'));
-
-			var texFel:TextField = new TextField();
-			texFel.width = FlxG.width;
-			texFel.height = FlxG.height;
-			// texFel.
-			texFel.htmlText = md;
-
-			FlxG.stage.addChild(texFel);
-
-			// scoreText.textField.htmlText = md;
-
-			trace(md);
-		 */
 
 		super.create();
 	}

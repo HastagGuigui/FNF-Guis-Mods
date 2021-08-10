@@ -1,4 +1,5 @@
-youtube||https://youtube.com/c/Guigui_Hastag_YT||bf
+original game||https://www.newgrounds.com/portal/view/770371||bf
+youtube||https://youtube.com/c/Guigui_Hastag_YT||bf-pixel
 twitch||https://twitch.tv/hastag_guigui||gf
 itch io||https://hastagguigui.itch.io||senpai
 twitter||https://twitter.com/_GuiguiYT||gui
