@@ -112,7 +112,7 @@ class CreditsState extends MusicBeatState
 
 		for (i in 0...songs.length)
 		{
-			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].linkName, true, false, true);
+			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].linkName, true, false, true, 1, 1, false);
 			songText.isMenuItem = true;
 			songText.targetY = i;
 			grpSongs.add(songText);

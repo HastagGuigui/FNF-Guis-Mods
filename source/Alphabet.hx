@@ -22,6 +22,7 @@ class Alphabet extends FlxSpriteGroup
 	// for menu shit
 	public var targetY:Float = 0;
 	public var isMenuItem:Bool = false;
+	public var sickLookingAlignment:Bool = true;
 
 	public var text:String = "";
 
@@ -52,7 +53,7 @@ class Alphabet extends FlxSpriteGroup
 	var yScale:Float;
 
 	// ThatGuy: Added 2 more variables, xScale and yScale for resizing text
-	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, shouldMove:Bool = false, xScale:Float = 1, yScale:Float = 1)
+	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = false, typed:Bool = false, shouldMove:Bool = false, xScale:Float = 1, yScale:Float = 1, sickLookingAlignmentMoment:Bool = true)
 	{
 		pastX = x;
 		pastY = y;
@@ -66,6 +67,8 @@ class Alphabet extends FlxSpriteGroup
 		_finalText = text;
 		this.text = text;
 		isBold = bold;
+
+		sickLookingAlignment = sickLookingAlignmentMoment;
 
 		if (text != "")
 		{
@@ -276,7 +279,11 @@ class Alphabet extends FlxSpriteGroup
 			var scaledY = FlxMath.remapToRange(targetY, 0, 1, 0, 1.3);
 
 			y = FlxMath.lerp(y, (scaledY * 120) + (FlxG.height * 0.48), 0.30);
-			x = FlxMath.lerp(x, (targetY * 20) + 90, 0.30);
+			if(sickLookingAlignment){
+				x = FlxMath.lerp(x, (targetY * 20) + 90, 0.30);
+			}else{
+				x = 120;
+			}
 		}
 
 		super.update(elapsed);
